@@ -12,7 +12,7 @@ data = ["my data",{'a':1,'b':1.1},False]
 
 storeData(data,"save.bm","key")
 
-storedData = readData(data,"save.bm","key")
+storedData = readData("save.bm","key")
 print(storedData)
 
 --------------------------------------------------------------
@@ -24,5 +24,5 @@ data = ["my data",{'a':1,'b':1.1},False]
 
 storeData(data,"save.bm")
 
-storedData = readData(data,"save.bm")
+storedData = readData("save.bm")
 print(storedData)
