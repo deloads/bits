@@ -3,6 +3,7 @@ created by marijn franco klappe
 bits is used to save encrypted by key and can only be decrypted widt the richt key
 but you dont have to add a key to your data if you dont want to.
 
+--------------------------------------------------------------
 example: widt key
 
 from bits import storeData,readData
